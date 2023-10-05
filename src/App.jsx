@@ -1,3 +1,4 @@
+import About from './components/About'
 import Header from './components/Header'
 import Work from './components/Work'
 import './index.css'
@@ -8,6 +9,7 @@ function App() {
   return (
     <Card>
       <Header />
+      <About />
       <Work />
     </Card>
   )
