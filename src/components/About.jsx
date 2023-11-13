@@ -3,7 +3,7 @@
 function About() {
   return (
     <div>
-      <h1 id='work' className="workTitle">About</h1>
+      <h1 className="workTitle">About</h1>
       <div className="aboutWrapper">
         <span className="aboutContent">As a dynamic Frontend Engineer, I&apos;m skilled in crafting captivating user interfaces using Angular, ReactJS, HTML, CSS, JavaScript, and TypeScript. 
         <div></div><br />

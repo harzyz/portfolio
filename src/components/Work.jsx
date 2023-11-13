@@ -4,10 +4,11 @@ function Work() {
   return (
     <div>
       <h1 id='work' className="workTitle">Work</h1>
+      <div className='wheel'>
       <div className="imgWrapper">
       {WorkData.map((bros) => (
       <div key={bros.id} className="imageFrameTrack">
-        <div>
+        <div >
           <div className="imageFrame">
             <a 
               href={bros.link} 
@@ -23,6 +24,7 @@ function Work() {
         </div>
       </div>
       ))}
+      </div>
       </div>
       
 
