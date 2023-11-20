@@ -22,12 +22,12 @@ const WorkData = [
     title: 'Educare',
     link: 'https://harzyz.github.io/webdevsafari1.0/'
   },
-  { 
-    id: 3,
-    ss: `${img04}`,
-    title: 'Recipemania',
-    link: 'https://recipemania.vercel.app/'
-  },
+  // { 
+  //   id: 3,
+  //   ss: `${img04}`,
+  //   title: 'Recipemania',
+  //   link: 'https://recipemania.vercel.app/'
+  // },
 ]
 
 export default WorkData
