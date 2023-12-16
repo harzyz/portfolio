@@ -1,7 +1,9 @@
 import img01 from '../../public/portfolioWork1.jpg'
 import img02 from '../../public/hackathonSS.jpg'
 import img03 from '../../public/edducare.jpg'
-import img04 from '../../public/recipemania.jpg'
+import img04 from '../../public/githubfinder.jpg'
+import img05 from '../../public/hoobank.jpg'
+import img06 from '../../public/olonje.jpg'
 
 const WorkData = [
   { 
@@ -23,10 +25,22 @@ const WorkData = [
     link: 'https://harzyz.github.io/webdevsafari1.0/'
   },
   { 
-    id: 3,
+    id: 4,
     ss: `${img04}`,
     title: 'Recipemania',
-    link: 'https://recipemania.vercel.app/'
+    link: 'https://frontend-challenge-23.vercel.app/'
+  },
+  { 
+    id: 5,
+    ss: `${img05}`,
+    title: 'Recipemania',
+    link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
+  },
+  { 
+    id: 6,
+    ss: `${img06}`,
+    title: 'Recipemania',
+    link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
   },
 ]
 

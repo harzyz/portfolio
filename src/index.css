@@ -7,6 +7,9 @@
   padding: 0;
   scroll-behavior: smooth;
 }
+body{
+  background-color: #000;
+}
 body::-webkit-scrollbar{
   width: 20px;
   display: none;
@@ -30,6 +33,8 @@ body::-webkit-scrollbar-thumb:hover{
   padding-bottom: 150px;
   color: #FFFFFF;
   width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 .header{
   position: relative;
