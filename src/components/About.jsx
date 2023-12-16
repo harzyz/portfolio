@@ -1,6 +1,4 @@
-// import React, { useEffect, useState } from 'react';
-// import AboutCss from './about.module.css'
-// import StackData from '../data/stack'
+
 
 function About() {
   

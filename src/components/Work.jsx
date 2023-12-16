@@ -1,4 +1,8 @@
 import WorkData from '../data/Data'
+import { FaGithub } from "react-icons/fa";
+import { IoLogoLinkedin } from "react-icons/io5";
+// import { Link, NavLink } from 'react-router-dom';
+
 
 function Work() {
   return (
@@ -26,7 +30,15 @@ function Work() {
       ))}
       </div>
       </div>
-      
+      <div className='links'>
+        <a href='https://github.com/harzyz' target="_blank" rel="noopener noreferrer" >
+          <button className='github'>Github <FaGithub /></button>
+        </a>
+        <a href='https://www.linkedin.com/in/abdul-azeez-ahmed-528a7624a/' target="_blank" rel="noopener noreferrer" >
+          <button className='linkedin'>LinkedIn <IoLogoLinkedin /></button>
+        </a>
+        
+      </div>
 
     </div>
   )

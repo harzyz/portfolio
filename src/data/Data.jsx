@@ -14,9 +14,9 @@ const WorkData = [
   },
   { 
     id: 2,
-    ss: `${img02}`,
-    title: 'GetLinked Hackathon',
-    link: 'https://hackathon-three-liard.vercel.app/'
+    ss: `${img05}`,
+    title: 'HooBank',
+    link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
   },
   { 
     id: 3,
@@ -27,21 +27,22 @@ const WorkData = [
   { 
     id: 4,
     ss: `${img04}`,
-    title: 'Recipemania',
+    title: 'GitHub User Finder ',
     link: 'https://frontend-challenge-23.vercel.app/'
   },
   { 
     id: 5,
-    ss: `${img05}`,
-    title: 'Recipemania',
-    link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
+    ss: `${img02}`,
+    title: 'GetLinked Hackathon',
+    link: 'https://hackathon-three-liard.vercel.app/'
   },
   { 
     id: 6,
     ss: `${img06}`,
-    title: 'Recipemania',
+    title: 'Olonje',
     link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
   },
 ]
 
 export default WorkData
+
