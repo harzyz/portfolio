@@ -1,7 +1,6 @@
 import WorkData from '../data/Data'
 import { FaGithub } from "react-icons/fa";
 import { IoLogoLinkedin } from "react-icons/io5";
-// import { Link, NavLink } from 'react-router-dom';
 
 
 function Work() {

@@ -44,6 +44,28 @@ body::-webkit-scrollbar-thumb:hover{
   padding: 50px;
   flex-direction: column;
 }
+@keyframes flip {
+	0% {
+		transform: perspective(400px) rotateY(0);
+		animation-timing-function: ease-out;
+	}
+	40% {
+		transform: perspective(400px) translateZ(150px) rotateY(170deg);
+		animation-timing-function: ease-out;
+	}
+	50% {
+		transform: perspective(400px) translateZ(150px) rotateY(190deg) scale(1);
+		animation-timing-function: ease-in;
+	}
+	80% {
+		transform: perspective(400px) rotateY(360deg) scale(.95);
+		animation-timing-function: ease-in;
+	}
+	100% {
+		transform: perspective(400px) scale(1);
+		animation-timing-function: ease-in;
+	}
+}
 .resume{
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
@@ -59,18 +81,20 @@ body::-webkit-scrollbar-thumb:hover{
   color: #FFFFFF;
 }
 .resume:hover{
+  animation: hithere 1s ease 4;
   color: #000000;
   background: #FFFFFF;
   border: 1px solid #000000;
 }
-/* .header h1{
-  padding-top: 50px ; 
-} */
 .headerLogo{
   font-family: 'Fuggles', cursive;
   text-decoration: underline;
   color: #FFFFFF;
   font-size: 50px;
+  /* animation: flip 1s ease 1; */
+}
+.headerLogo:hover{
+  animation: flip 1s ease 1;
 }
 .headerSumary{
   margin-top: 50px;
@@ -207,7 +231,13 @@ body::-webkit-scrollbar-thumb:hover{
   border-radius: 10px;
   font-family: 'Ubuntu', sans-serif;
 }
-
+@keyframes hithere {
+  30% { transform: scale(1.2); }
+  40%, 60% { transform: rotate(-20deg) scale(1.2); }
+  50% { transform: rotate(20deg) scale(1.2); }
+  70% { transform: rotate(0deg) scale(1.2); }
+  100% { transform: scale(1); }
+}
 @media screen and (max-width:700px) {
   .wrapper{
     width: 100%;
@@ -227,6 +257,7 @@ body::-webkit-scrollbar-thumb:hover{
     width: 70px;
     border-radius: 10px;
     font-size: 14px;
+    /* animation: hithere 1s ease 4; */
   }
   .aboutContent{
     line-height: 25px;
