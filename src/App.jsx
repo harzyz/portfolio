@@ -8,6 +8,44 @@ function App() {
 
   return (
     <Card>
+      <div className="snowflakes" aria-hidden="true">
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+    <div className="snowflake">
+      ❅
+    </div>
+    <div className="snowflake">
+      ❆
+    </div>
+  </div>
       <Header />
       <About />
       <Work />
