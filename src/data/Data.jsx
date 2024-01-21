@@ -40,7 +40,7 @@ const WorkData = [
     id: 6,
     ss: `${img06}`,
     title: 'Olonje',
-    link: 'https://hoo-bank-landing-page-dusky.vercel.app/'
+    link: 'https://olonje-landing-page.vercel.app/'
   },
 ]
 
