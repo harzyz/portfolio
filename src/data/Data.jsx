@@ -4,6 +4,7 @@ import img03 from '../../public/edducare.jpg'
 import img04 from '../../public/githubfinder.jpg'
 import img05 from '../../public/hoobank.jpg'
 import img06 from '../../public/olonje.jpg'
+import img07 from '../../public/ffrl.jpg'
 
 const WorkData = [
   { 
@@ -41,6 +42,12 @@ const WorkData = [
     ss: `${img06}`,
     title: 'Olonje',
     link: 'https://olonje-landing-page.vercel.app/'
+  },
+  { 
+    id: 7,
+    ss: `${img07}`,
+    title: 'Famous Facility Resources Limited',
+    link: 'https://www.famousfacilityresourceslimited.co.uk/'
   },
 ]
 
