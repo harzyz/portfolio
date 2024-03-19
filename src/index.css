@@ -129,7 +129,7 @@ body::-webkit-scrollbar-thumb:hover{
   /* border-right: 3px solid #B13420; */
   white-space: nowrap;
   overflow: hidden;
-  width: 725px;
+  width: 100%;
   /* animation: typing 1.2s steps(18), cursor .4s step-end infinite alternate; */
 }
 @keyframes cursor {
