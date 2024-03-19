@@ -84,6 +84,9 @@ body::-webkit-scrollbar-thumb:hover{
   transition: all .3s ease;
   color: #FFFFFF;
 }
+.resumew{
+  display: block;
+}
 /* .textContainer{
   display: flex;
   gap: 15px;
@@ -474,5 +477,8 @@ body::-webkit-scrollbar-thumb:hover{
   }
   .aboutContent{
     width: 95%;
+  }
+  .resumew{
+    display: none;
   }
 }

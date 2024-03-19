@@ -4,7 +4,7 @@ function Header() {
   return (
     <div className="header">
       <a href="/"><h1 className="headerLogo">AbdulAzeez</h1></a>
-      <a href='https://drive.google.com/file/d/1Vs60kxC2fEWYjgoK9qPrZTizDYM_O952/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='resume'> <HiOutlineNewspaper/> Resume</button></a>
+      <a href='https://drive.google.com/file/d/1Vs60kxC2fEWYjgoK9qPrZTizDYM_O952/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='resume'> <HiOutlineNewspaper/> <span className="resumew">Resume</span></button></a>
       <div className="headerSumary">
         <div className='textContainer'>
           <h1>I am </h1><h1 className="red">Abdul-Azeez Ahmed.</h1>
