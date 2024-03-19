@@ -1,12 +1,15 @@
-import resume from '../../public/AbdulAzeez Ahmed Cv.pdf'
+import { HiOutlineNewspaper } from "react-icons/hi2";
 
 function Header() {
   return (
     <div className="header">
       <a href="/"><h1 className="headerLogo">AbdulAzeez</h1></a>
-      <a href={resume} download={'AbdulAzeez Ahmed CV'}><button className='resume'>Resume</button></a>
+      <a href='https://drive.google.com/file/d/1Vs60kxC2fEWYjgoK9qPrZTizDYM_O952/view?usp=sharing' target="_blank" rel="noopener noreferrer"><button className='resume'> <HiOutlineNewspaper/> Resume</button></a>
       <div className="headerSumary">
-        <h1>I am <span className="red">Ahmed AbdulAzeez</span> <br /> Frontend-engineer</h1>
+        <div className='textContainer'>
+          <h1>I am </h1><h1 className="red">Abdul-Azeez Ahmed.</h1>
+        </div>
+          <h1>Frontend-engineer</h1>
         <p>Experienced in writing clean and reusable code with the latest tools.My career goal is to develop processes and software tools that can improve service delivery and product quality.</p> 
       </div>
       <div className="btnWrapper">

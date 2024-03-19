@@ -11,7 +11,7 @@ function Work() {
       <div className="imgWrapper">
       {WorkData.map((bros) => (
       <div key={bros.id} className="imageFrameTrack">
-        <div >
+        <div>
           <div className="imageFrame">
             <a 
               href={bros.link} 
@@ -20,7 +20,10 @@ function Work() {
               <img width={'100%'} height={'100%'} src={bros.ss} alt="" />
             </a>
           </div>
-          <h4 className="projectDescription">{bros.title}</h4>
+          <div className='projectText'>
+            <h4 className="projectDescription">{bros.title}</h4>
+            <h4 className="projectDescription">{bros.stack}</h4>
+          </div>
           <a href={bros.link} target="_blank" rel="noopener noreferrer">
           <button className="projectBtn">View Project</button>
           </a>
@@ -31,10 +34,10 @@ function Work() {
       </div>
       <div className='links'>
         <a href='https://github.com/harzyz' target="_blank" rel="noopener noreferrer" >
-          <button className='github'>Github <FaGithub /></button>
+          <button className='github'><FaGithub /></button>
         </a>
         <a href='https://www.linkedin.com/in/abdul-azeez-ahmed-528a7624a/' target="_blank" rel="noopener noreferrer" >
-          <button className='linkedin'>LinkedIn <IoLogoLinkedin /></button>
+          <button className='linkedin'><IoLogoLinkedin /></button>
         </a>
         
       </div>
